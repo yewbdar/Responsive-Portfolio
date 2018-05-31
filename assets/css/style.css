@@ -27,7 +27,9 @@ a.menu-link{
     color: #777777;
     font-size: 15px;
 }
-
+a.portfolio{
+    text-decoration: none;
+}
 
 header{
     width: 100vw;
@@ -115,9 +117,12 @@ border:1.5px solid #cccccc;
 
 .l2{
     margin-left: 2%;
+    color:#4aaaa5;
 }
 .hey{
-    padding:2%;
+    padding:5%;
+    /* margin-top:100%; */
+    margin-left: 38%;
 }
 .image1{
     margin-top:2%;
@@ -141,13 +146,18 @@ footer p {
 .image-holder{
     background-color: white;
 }
+.my-image{
+    width: 100%;
+    /* height: 20%; */
+    /* float: left; */
+}
 .menu{
     width: 58%;
 }
 a.menu-link:link{
     text-decoration: none;
     color: #777777;
-    font-size: 20px;
+    font-size: 16px;
 }
 a.menu-link:visited{
     text-decoration: none;
@@ -256,7 +266,9 @@ header{
 ul.menu-list{
     position: absolute;
     text-align:bottom;
-    color: #777777
+    color: #777777;
+    margin-top: 7%;
+    
 }
 .body{
     width: 100%;
@@ -467,6 +479,8 @@ input[type=submit]:hover {
  }
  .hey{
      width:95%;
+     margin-left: 3%;
+     margin-top: 1%;
  }
  
  .my-image,.image-and-name
@@ -644,6 +658,10 @@ header,.menu-container,.menu,.myname,
 }  
 .aboutme p{
   width: 95%;
+}
+.hey{
+    width: 100%;
+    margin-left: 0%;
 }
     .my-image{
       float:left;
