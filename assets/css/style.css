@@ -29,8 +29,14 @@ a.menu-link{
 }
 a.portfolio{
     text-decoration: none;
+    color: white;
+    margin-right: 0%;
 }
-
+.code{
+    text-decoration: none;
+    margin-left: 18%;
+    color: white
+}
 header{
     width: 100vw;
     position: relative;
@@ -50,7 +56,8 @@ header{
 .myname{
     
     color:white;
-    background-color: #4aaaa5;
+    /* background-color: #4aaaa5; */
+    background-color:  #ffa300;
     font-size: 19px;
     font-weight: bold;
     text-align: center;
@@ -83,7 +90,7 @@ footer{
     display:block;
     
     background-color: #666666;
-    border-top: 7px solid #4aaaa5;
+    border-top: 7px solid #ffa300;
     text-align: center;
     color: white;
     height:10%;
@@ -105,7 +112,7 @@ p {
     text-align: justify;
 }
 .aboutme>h1 , .media>h3 {
-    color:#4aaaa5;
+    color:#ffa300;
     font-family: Georgia, Times, 'Times New Roman', serif;
 
 
@@ -117,7 +124,7 @@ border:1.5px solid #cccccc;
 
 .l2{
     margin-left: 2%;
-    color:#4aaaa5;
+    color:#ffa300;
 }
 .hey{
     padding:5%;
@@ -130,7 +137,7 @@ border:1.5px solid #cccccc;
 }
 .image-name{
     position: relative;
-    background-color: #4aaaa5;
+    background-color: #ffa300;
     color: white;
     padding: 2%;
     margin-top: -5%;
@@ -148,6 +155,7 @@ footer p {
 }
 .my-image{
     width: 100%;
+    border-radius: 50%;
     /* height: 20%; */
     /* float: left; */
 }
@@ -157,7 +165,7 @@ footer p {
 a.menu-link:link{
     text-decoration: none;
     color: #777777;
-    font-size: 16px;
+    font-size: 20px;
 }
 a.menu-link:visited{
     text-decoration: none;
@@ -166,8 +174,18 @@ a.menu-link:visited{
 }
 a.menu-link:hover{
     text-decoration: none;
-    color: #7e7979;
-    font-size: 30px;
+    color: #ffa300;
+     font-size: 30px; 
+    font-weight: bold;
+
+}
+a.portfolio:hover{
+    font-size: 20px;
+    font-weight: bold;
+}
+a.code:hover{
+    font-size: 25px;
+    font-weight: bold;
 }
 a.menu-link:active{
     text-decoration: none;
@@ -249,7 +267,7 @@ header{
     float: left;
     left: 0%;
     color:white;
-    background-color: #4aaaa5;
+    /* background-color: #4aaaa5; */
     font-size: 19px;
     
     font-weight: bold;
@@ -360,7 +378,7 @@ width: 40%;
 }
 h1,h3{
     font-weight: bold;
-    color: #4aaaa5;
+    color: #ffa300;
 }
 h1{
     font-size: 25px;
@@ -394,7 +412,7 @@ margin:3%;
 }
 .image-name{
     position:relative;
-    background: #4aaaa5;
+    background: #ffa300;
     text-align: center;
     color: white;
     width: 96%;
@@ -416,7 +434,7 @@ form {
 
 input[type=submit]{
     padding: 12px 35px;
-    background-color:#4aaaa5; 
+    background-color:#ffa300; 
     color: white;
     font-size: 16px;
     margin-top: 10px;
@@ -435,7 +453,7 @@ footer.contactme-footer{
     top: 9%;
 }
 input[type=submit]:hover { 
-    background-color: #5bc9c3;
+    background-color: #ffc400;
 }
 /******** Between  980 - 769 PX**********************/
 @media screen and (min-width: 769px) and (max-width: 980px)
@@ -528,7 +546,7 @@ input[type=submit]:hover {
 }
 .image-name{
         position:relative;
-        background: #4aaaa5;
+        background: #ffa300;
         text-align: center;
         color: white;
         width: 96%;
@@ -552,7 +570,7 @@ form {
 
 input[type=submit]{
     padding: 12px 35px;
-    background-color:#4aaaa5; 
+    background-color:#ffa300; 
     color: white;
     font-size: 16px;
     margin-top: 10px;
@@ -607,7 +625,7 @@ float: left;
 }
  .image-name{
         position:relative;
-        background: #4aaaa5;
+        background: #ffa300;
         text-align: center;
         color: white;
         width: 65%;
@@ -626,7 +644,7 @@ form {
 
 input[type=submit]{
     padding: 12px 35px;
-    background-color:#4aaaa5; 
+    background-color:#ffa300; 
     color: white;
     font-size: 16px;
     margin-top: 10px;
@@ -709,7 +727,7 @@ header,.menu-container,.menu,.myname,
     }
     .image-name{
         position:relative;
-        background: #4aaaa5;
+        background: #ffa300;
         text-align: center;
         color: white;
         width: 96%;
@@ -717,7 +735,11 @@ header,.menu-container,.menu,.myname,
         
         
     }
-
+    .code{
+        text-decoration: none;
+        margin-right: 0%;
+        color: white
+    }
     .media {
         clear: left;
         width: 94%;
@@ -733,7 +755,7 @@ form {
 
 input[type=submit]{
     padding: 12px 35px;
-    background-color:#4aaaa5; 
+    background-color:#ffa300; 
     color: white;
     font-size: 16px;
     margin-top: 10px;
